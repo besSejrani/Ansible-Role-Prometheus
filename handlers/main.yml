@@ -1,0 +1,9 @@
+---
+# =================================================
+# Reload Prometheus
+# =================================================
+- name: restart_prometheus
+  systemd:
+    name: prometheus
+    state: restarted
+    daemon_reload: yes

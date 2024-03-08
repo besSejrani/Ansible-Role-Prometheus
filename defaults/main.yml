@@ -1,0 +1,4 @@
+---
+# defaults file for Ansible-Role-Prometheus
+PROMETHEUS_VERSION: "2.50.0"
+TARGETS: ["localhost:9100"]
